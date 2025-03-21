@@ -5,7 +5,7 @@ This has been tested on Debian 12
 ## Install hidapi and pipx
 
 ```bash
-sudo apt install libhidapi-libusb0 pipx
+sudo apt install libhidapi-libusb0 pipx python3-dev
 ```
 
 > Note that for version `2.0.6` and below, you also need to install `libxcb-xinerama0` (include it with apt in the line above).
